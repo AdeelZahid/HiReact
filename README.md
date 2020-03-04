@@ -1,2 +1,0 @@
-# HiReact
-Created with CodeSandbox
