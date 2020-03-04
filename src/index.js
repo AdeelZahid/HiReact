@@ -1,23 +1,7 @@
-import React from 'react';
-import {render} from 'react-dom';
+import React from "react";
+import ReactDOM from "react-dom";
 
+import App from "./App";
 
-
-const styles = {
-  fontFamily: 'sans-serif',
-  textAlign: 'center'
-};
-
-class App extends React.Component{
-  render(){
-   return (
-      <div style={styles}>
-        <h2> {this.props.count} </h2>
-      </div>
-    )
-  }
-}
-
-const roott = document.getElementById('root')
-render(<App  count={'Adeel Zahid'}/>, roott)
-
+const Root = document.getElementById("root");
+ReactDOM.render(<App />, Root);
